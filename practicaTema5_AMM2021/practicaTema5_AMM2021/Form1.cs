@@ -37,7 +37,7 @@ namespace practicaTema5_AMM2021
                 miAlumnoNotaTexto = "Notable";
             }
             else
-                miAlumnoNotaTexto = "Sobresaliente";
+                miAlumnoNotaTexto = "Excelente";
             miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " +
             miAlumnoNotaTexto + "\n";
             listaAlumnos.AppendText(miAlumnoStr);
